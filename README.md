@@ -112,3 +112,73 @@ For the same hotel booking platform, examples include:
 Non-functional requirements ensure the system is **reliable, secure, and user-friendly**, complementing the core functionality.
 
 ---
+
+## 🧩 Use Case Diagrams
+
+**Use Case Diagrams** are a type of behavioral diagram in UML (Unified Modeling Language) that visually represent the interactions between users (actors) and the system to achieve specific goals (use cases). They help in understanding **who** will interact with the system and **what** functionalities the system should offer.
+
+### 📈 Benefits of Use Case Diagrams
+
+- Provide a **high-level overview** of the system functionality.
+- Help identify **all user interactions** with the system early in the development process.
+- Serve as a communication tool between **stakeholders and developers**.
+- Make it easier to write **detailed requirements** and plan test cases.
+
+### 🖼️ Use Case Diagram: Hotel Booking System
+
+Below is a sample use case diagram representing a simplified booking system for a platform like Airbnb or OYO. The diagram includes key actors and their associated use cases.
+
+![Use Case Diagram](alx-booking-uc.png)
+
+### 👤 Actors
+
+- **Guest/User**: A person who searches and books listings.
+- **Host**: A person who lists and manages properties.
+- **Admin**: Oversees the platform, manages users, and handles complaints.
+
+### 🔄 Use Cases
+
+- **Sign Up / Login**
+- **Search for Listings**
+- **Filter Listings by Date, Price, Location**
+- **View Listing Details**
+- **Make a Booking**
+- **Make Payment**
+- **View Booking History**
+- **List a Property** (Host)
+- **Manage Bookings** (Host)
+- **Resolve Disputes** (Admin)
+- **Remove Listing or User** (Admin)
+
+---
+
+## ✅ Acceptance Criteria
+
+### 📌 What is Acceptance Criteria?
+
+**Acceptance Criteria** are the conditions that a software product must satisfy to be accepted by a user, customer, or other stakeholders. They are used to define the boundaries of a user story or feature and guide the development and testing processes.
+
+In Requirement Analysis, acceptance criteria are crucial for:
+
+- Ensuring **clarity** on what a feature must do.
+- Aligning **expectations** between stakeholders and developers.
+- Serving as a **basis for test cases** and quality assurance.
+- Helping determine when a feature is **“done”**.
+
+Clear acceptance criteria reduce ambiguity and miscommunication, and they help teams deliver functionality that meets user needs.
+
+---
+
+### 🧾 Example: Acceptance Criteria for Checkout Feature
+
+**Feature:** Checkout Process for Hotel Booking
+
+**Acceptance Criteria:**
+
+- ✅ The user must be able to review booking details (hotel name, price, dates, number of guests) before confirming.
+- ✅ The system must display a summary of charges including taxes and fees.
+- ✅ The user must be able to enter and validate payment information securely.
+- ✅ Payment must be processed using integrated payment gateways (e.g., Stripe, Paystack).
+- ✅ The system must show a confirmation message and booking ID after successful payment.
+- ✅ A booking confirmation email must be sent to the user within 1 minute of successful checkout.
+- ✅ If payment fails, the user must be notified with an appropriate error message and retry options.
